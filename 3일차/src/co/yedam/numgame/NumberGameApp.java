@@ -1,5 +1,7 @@
 package co.yedam.numgame;
-
+/*
+ * #####
+ */
 public class NumberGameApp {
 	
 	//컴 임의의수 생성

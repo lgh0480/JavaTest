@@ -7,7 +7,8 @@ public class AppMain {
 		//star.draw(5);
 		//star.drawInvert(5);
 		star.drawEq(5);
-		star.drawEqInvert(5);
+		//star.drawEqInvert(5);
+		
 	}
 
 }

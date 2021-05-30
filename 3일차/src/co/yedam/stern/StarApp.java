@@ -18,7 +18,7 @@ public class StarApp {
 		//이등변 정삼각형
 	void drawEq(int cnt) {
 		for(int i=1; i<=cnt; i++) {
-			System.out.print(pad(' ',cnt-i));
+			System.out.print(pad('_',cnt-i));
 			System.out.println(pad('*', i*2-1));
 		}
 	}

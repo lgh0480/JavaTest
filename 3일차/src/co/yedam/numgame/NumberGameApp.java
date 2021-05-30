@@ -3,7 +3,7 @@ package co.yedam.numgame;
  * #####
  */
 public class NumberGameApp {
-	
+											//필드
 	//컴 임의의수 생성
 	int com;     //컴퓨터 만든수
 	int	user;    //사용자가 입력한 값

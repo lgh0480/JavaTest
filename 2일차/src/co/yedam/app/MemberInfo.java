@@ -9,11 +9,11 @@ public class MemberInfo {
 
 	double height; // 키
 	double weight; // 몸무게
-	double result = 0; //bmi 결과
-	
-	String s = ""; 
+	double result = 0; // bmi 결과
+
+	String s = "";
 	Scanner scanner = new Scanner(System.in);
-	
+
 	void heightWeightInput() {
 		// 코드 추가
 
@@ -21,23 +21,23 @@ public class MemberInfo {
 		height = scanner.nextDouble();
 		System.out.print("당신의 몸무게는?:");
 		weight = scanner.nextDouble();
-		//scanner.close(); scanner 
+		// scanner.close(); scanner
 	}
-		
-	String bmi(){
-		
-		result = weight / (height/100 * height/100);
-		
-			if(result < 18.5) {
+
+	String bmi() {
+
+		result = weight / (height / 100 * height / 100);
+
+		if (result < 18.5) {
 			System.out.println("저체중");
-		} else if(result< 23) {
+		} else if (result < 23) {
 			System.out.println("정상");
-		}	else if(result< 25) {
-			System.out.println("과체중");	
-		}	else
+		} else if (result < 25) {
+			System.out.println("과체중");
+		} else
 			System.out.println("비만");
-	
-			return s; // MemberInfoMain쪽에서 s.member로 통해 출력됨 
+
+		return s; // MemberInfoMain쪽에서 s.member로 통해 출력됨
 	}
 
 	void input() {
@@ -58,8 +58,7 @@ public class MemberInfo {
 		System.out.println(name);
 		System.out.println(id);
 		System.out.println(tel);
+
 	}
 
-	
-	
 }

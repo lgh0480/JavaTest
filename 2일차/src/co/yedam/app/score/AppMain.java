@@ -8,6 +8,7 @@ public class AppMain {
 		//성적입력
 		score.input();
 		
+		
 		//결과출력
 		System.out.println(
 				"합계는:"+ score.getSum()+","+

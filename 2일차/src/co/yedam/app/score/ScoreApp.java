@@ -8,12 +8,60 @@ import java.util.Scanner;
  * 총점, 평균,등급 계산
  */
 public class ScoreApp {
-	int kor;
-	int eng;
-	int mat;
-	int sum;
-	float avg;
-	char grade; // 한글자만 가능
+	private int kor;
+	private int eng;
+	private int mat;
+	private int sum;
+	private float avg;
+	priav grade; // 한글자만 가능
+	public int getKor() {
+		return kor;
+	}
+
+	public void setKor(int kor) {
+		this.kor = kor;
+	}
+
+	public int getEng() {
+		return eng;
+	}
+
+	public void setEng(int eng) {
+		this.eng = eng;
+	}
+
+	public int getMat() {
+		return mat;
+	}
+
+	public void setMat(int mat) {
+		this.mat = mat;
+	}
+
+	public char getGrade() {
+		return grade;
+	}
+
+	public void setGrade(char grade) {
+		this.grade = grade;
+	}
+
+	public Scanner getScanner() {
+		return scanner;
+	}
+
+	public void setScanner(Scanner scanner) {
+		this.scanner = scanner;
+	}
+
+	public void setSum(int sum) {
+		this.sum = sum;
+	}
+
+	//public void setAvg(float avg) {
+		//this.avg = avg;
+	//}
+	
 	Scanner scanner = new Scanner(System.in);
 
 	// 성적입력

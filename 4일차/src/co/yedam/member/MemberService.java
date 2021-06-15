@@ -30,7 +30,14 @@ public class MemberService {
 	void printList() {
 		for (int i = 0; i < cnt; i++) {
 			System.out.println(members[i]);
-
+			for (int i = 0; i < empNum; i++) {
+				System.out.print(i + "\t");
+				System.out.print(employees[i].employeeId + "\t");
+				System.out.print(employees[i].name + "\t");
+				System.out.print(employees[i].departmentId + "\t");
+				System.out.print(employees[i].salary + "\t");
+				System.out.println(employees[i].email + "\t");
+			
 		}
 
 	}
